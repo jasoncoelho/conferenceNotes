@@ -19,7 +19,7 @@
   - www.argonjs.io
   - https://aframe.io/
 
-# 10:15 Atomist by Jessica Kerr @jessitron
+# 10:15am Atomist by Jessica Kerr @jessitron
 
 - Atomist is the company that Rod Johnson joined (or maybe founded???)
 - Very similar in process to Spring-Boot 
@@ -49,37 +49,45 @@
 
 - Works at Formidable
 - React has lifecyle methods
-- has its own stylesheet format
-- has ability to hot reload code into the browser (cool when testing webpages as this preserves state)
-- Cons of React Native - native apps will always be faster
+- Has its own stylesheet format
+- Has ability to hot reload code into the browser (cool when testing webpages AS this preserves state - no need to type that zipcode everytime you want to test something)
+- Cons of React Native 
+  - native apps will always be faster
 - Can write a AsynBridge to output / render to hardware
 - (?? REASON ML ??)
 - Need for a new kind of Browser 
-  - EXPO
+  - https://expo.io/
 - SNACK - lets you write code on your browser that automatically updates on your phone
+  - https://snack.expo.io/
 - (?? APPR ??)
+ - https://github.com/FormidableLabs/appr
 
 # 1:30pm Stream All Things : Patterns of Modern Data Integration by Gwen Shapira @gwenshap
 
 - Data has transitioned from Data Warehouse to Data Lakes to Data Streams
-- Engineering has shifting from specialized to more generic (ETL/DBA/Admin to just engineer)
-- used a Hotel Chain example to explain streams.
-- Kafka Topics = Database Table
-- Compatibility : Confluent Schema registry maintains schema in Avro 
-  - this helps refuse messages that are not compatible by the producer
+- Engineering titles have shifted from specialized to more generic (ETL/DBA/Admin to just 'engineer')
+- Speaker used a Hotel Chain example to explain how Kafka streams would be useful.
+  - Kafka Topics = Database Table
+- Compatibility : Confluent Schema registry maintains schema in Avro (alternative frameworks coming soon)
+  - this helps refuse / filter messages that are not compatible at the producer stage (and not at the consumer level)
   - errors caught at production rather than consumption
-- Data can be removed from the message example - obfuscating the credit card info
+- Data can be removed from the message 
+  - Example - obfuscating the credit card info
+  - Different consumers can get different level of data
 - Scalable consumption
-  - add partitioning to scaled based on the slowest consumer
+  - Add partitioning to scale based on the slowest consumer
 - Kafka Connectors are parallel-izable
-- Example about enriching events 
-  - connect to a DB or REST
-  - but this is slow so add a cache
-  - cache needs to be updated via messages
+- Enriching events 
+  - Most apps connect to a DB or REST
+  - But this is slow..... so add a cache
+  - Cache needs/can to be updated via Kafka messages
 - KafkaStreams API
-  - Example around Search Relevance joining a stream to a table , and joining 2 streams together
-  - timestamps need to be generated at origin
-- github / kafka-clickstream-search
+  - Example around Search Relevance 
+    - joining a stream to a table 
+    - joining 2 streams together
+- Note on timestamps 
+  - They need to be generated at origin or whatever produces the message
+- https://github.com/gwenshap/kafka-clickstream-enrich
 
 # 2:45 pm DevSecOps - lessons learnt from inserting security  
 
