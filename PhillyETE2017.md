@@ -10,10 +10,10 @@
     <ar-scene>
 
 - Links
-  - twine.com
-  - glitch.com
-  - argonjs.io
-  - arframe.io
+  - www.twine.com
+  - www.glitch.com
+  - www.argonjs.io
+  - www.arframe.io
 
 # 10:15 Atomist by Jessica Kerr @jessitron
 
