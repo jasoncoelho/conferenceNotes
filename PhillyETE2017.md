@@ -1,11 +1,14 @@
 # 8:45am Keynote - Augmented Reality by Blair Macintyre
 
 - ARGON 4
-  - overlaps Augmented Reality on top of Images / Live Stream
-  - demo'd a pretty cool example of the audience with google maps location overlaid
-  - has the ability to replace reality (ie LiveStream) with an alternate reality Example - stream from Atl,GA.
+  - Framework tha lets you overlap Augmented Reality on top of Images / Live Stream
+  - Demo'd a pretty cool example of the audience with google maps location overlaid
+  - Has the ability to replace reality (ie the Live Stream) with an alternate reality 
+    - Example - Show a stream from Atl, GA instead of Philly
 - ISS Traclabs
-  - space missions - showed an image of the EVA suit charger with TEXT overlay
+  - AR could be used on space missions 
+    - showed an image of the EVA suit charger with TEXT overlay
+- Usage
 
     <ar-scene>
 
@@ -13,7 +16,7 @@
   - https://twinery.org/
   - http://www.glitchstudios.co/
   - www.argonjs.io
-  - www.arframe.io
+  - https://aframe.io/
 
 # 10:15 Atomist by Jessica Kerr @jessitron
 
