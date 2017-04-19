@@ -11,7 +11,7 @@
 
 - Links
   - https://twinery.org/
-  - www.glitch.com
+  - http://www.glitchstudios.co/
   - www.argonjs.io
   - www.arframe.io
 
