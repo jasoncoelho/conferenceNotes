@@ -10,7 +10,7 @@
     <ar-scene>
 
 - Links
-  - www.twine.com
+  - https://twinery.org/
   - www.glitch.com
   - www.argonjs.io
   - www.arframe.io
