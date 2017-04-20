@@ -1,4 +1,6 @@
-# 8:45am Keynote - Augmented Reality by Blair Macintyre
+# DAY 1
+
+## 8:45am Keynote - Augmented Reality by Blair Macintyre
 
 - ARGON 4
   - Framework tha lets you overlap Augmented Reality on top of Images / Live Stream
@@ -19,7 +21,7 @@
   - www.argonjs.io
   - https://aframe.io/
 
-# 10:15am Atomist by Jessica Kerr @jessitron
+## 10:15am Atomist by Jessica Kerr @jessitron
 
 - Atomist is the company that Rod Johnson joined (or maybe founded???)
 - Very similar in process to Spring-Boot 
@@ -45,7 +47,7 @@
 - Links
   - www.the-composition.com
 
-# 11:30am Betting on React Native by Ken Wheeler @ken_wheeler
+## 11:30am Betting on React Native by Ken Wheeler @ken_wheeler
 
 - Works at Formidable
 - React has lifecyle methods
@@ -62,7 +64,7 @@
 - (?? APPR ??)
  - https://github.com/FormidableLabs/appr
 
-# 1:30pm Stream All Things : Patterns of Modern Data Integration by Gwen Shapira @gwenshap
+## 1:30pm Stream All Things : Patterns of Modern Data Integration by Gwen Shapira @gwenshap
 
 - Data has transitioned from Data Warehouse to Data Lakes to Data Streams
 - Engineering titles have shifted from specialized to more generic (ETL/DBA/Admin to just 'engineer')
@@ -89,9 +91,29 @@
   - They need to be generated at origin or whatever produces the message
 - https://github.com/gwenshap/kafka-clickstream-enrich
 
-# 2:45 pm DevSecOps - lessons learnt from inserting security  
+## 2:45 pm DevSecOps - lessons learnt from inserting security  
 
 - StarBucks
+
+# DAY 2
+
+## Next.js coding by Guillermo Rauch
+
+- https://zeit.co/
+  - Simplifies deployment using 1 command
+- https://facebook.github.io/react/
+- https://github.com/zeit/next.js/
+- react
+  - defines components that are stand-alone
+- Example 
+  - Re-implemented HackerNews
+  - HackerNews is a very simple webpage with no JavaScript
+ - Uses **JSX** which is html embedded in Javascript
+   - underneath there is magic that uses Babel to convert JSX to JS
+ - Can create components that have a unique look
+ - Next.js uses convention over configuration
+ - Each page only loads the JS it requires instead of loading an entire a big JS
+
 
 
 
