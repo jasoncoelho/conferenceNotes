@@ -181,6 +181,7 @@
   - defines components that are stand-alone
 - Example 
   - Re-implemented HackerNews
+  - https://github.com/now-examples/next-news
   - HackerNews is a very simple webpage with no JavaScript
  - Uses **JSX** which is html embedded in Javascript
    - underneath there is magic that uses Babel to convert JSX to JS
