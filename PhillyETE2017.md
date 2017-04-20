@@ -148,7 +148,7 @@
 ## Container Trends by John Grossman @grossmanster
 
 - THEN __processes__ NOW __VMs and Containers__
-- Disruptors are often mostly guided by what is more Aesthetic
+- "Disruptors are often mostly guided by what is more Aesthetic"
 - Current emergent trends in containers
   - Networking
     - CNM
@@ -188,12 +188,12 @@
  - Each page only loads the JS it requires instead of loading an entire a big JS
  - Components are functional in nature 
    - take arguments and return HTML
- - pages directory contains the top level pages
+ - Pages directory contains the top level pages
  - Checkout React Dev Tools
  
   >   <link prefetch>
      
- - With link, javascript state is maintained 
+ - With links, javascript state is maintained 
 
 
 
