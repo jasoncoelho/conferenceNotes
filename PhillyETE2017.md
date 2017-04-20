@@ -140,8 +140,8 @@
           - Devs are becoming more proactive rather than Reactive
         - Uses Chatbots to simpify Incident management
           - example when something is Alerted, a bot will respond to that alert and compile and post info into Slack
-    - Product Managers ARE ON CALL
-    - Interesting Suggestion - STOP USING REST and instead use RPC
+    - Product Managers **ARE ON CALL**
+    - Interesting Suggestion - **STOP USING REST** and instead use **RPC**
       - https://twitter.github.io/finagle/
       - http://www.grpc.io/
       
