@@ -104,7 +104,7 @@
 
 ## Cost Effective Telemetry by Bruce Wong @bruce_m_wong
 
-- Experience at Netflix while transitioning from DC to AWS
+- **Experience at Netflix while transitioning from DC to AWS**
   - Roman Riding (riding 2 horses while standing on them)
   - Strategy - Loosely Coupled but Highly Aligned
   - Used WireShark
@@ -112,7 +112,7 @@
     - got expensive but worked with Amazon to figure out a way to delete buckets
   - https://github.com/Netflix/atlas/wiki/Metrics-and-Logging
     - maximum cardinality on log lines
-- Experience at Twillio
+- **Experience at Twillio**
   - Strategy
     - Right Tool for the Right Job
     - Buy SAAS
