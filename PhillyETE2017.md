@@ -1,6 +1,6 @@
 # DAY 1
 
-## 8:45am Keynote - Augmented Reality by Blair Macintyre
+## Keynote - Augmented Reality by Blair Macintyre
 
 - ARGON 4
   - Framework tha lets you overlap Augmented Reality on top of Images / Live Stream
@@ -21,7 +21,7 @@
   - www.argonjs.io
   - https://aframe.io/
 
-## 10:15am Atomist by Jessica Kerr @jessitron
+## Atomist by Jessica Kerr @jessitron
 
 - Atomist is the company that Rod Johnson joined (or maybe founded???)
 - Very similar in process to Spring-Boot 
@@ -47,7 +47,7 @@
 - Links
   - www.the-composition.com
 
-## 11:30am Betting on React Native by Ken Wheeler @ken_wheeler
+## Betting on React Native by Ken Wheeler @ken_wheeler
 
 - Works at Formidable
 - React has lifecyle methods
@@ -64,7 +64,7 @@
 - (?? APPR ??)
  - https://github.com/FormidableLabs/appr
 
-## 1:30pm Stream All Things : Patterns of Modern Data Integration by Gwen Shapira @gwenshap
+## Stream All Things : Patterns of Modern Data Integration by Gwen Shapira @gwenshap
 
 - Data has transitioned from Data Warehouse to Data Lakes to Data Streams
 - Engineering titles have shifted from specialized to more generic (ETL/DBA/Admin to just 'engineer')
@@ -91,11 +91,16 @@
   - They need to be generated at origin or whatever produces the message
 - https://github.com/gwenshap/kafka-clickstream-enrich
 
-## 2:45 pm DevSecOps - lessons learnt from inserting security  
+## DevSecOps - lessons learnt from inserting security  - StarBucks
 
-- StarBucks
+- http://blogs.gartner.com/neil_macdonald/2012/01/17/devops-needs-to-become-devopssec/
+- https://www.oreilly.com/people/f3863-jim-bird  
 
 # DAY 2
+
+## Keynote by Scott Hanselman
+
+- https://www.hanselman.com/
 
 ## Cost Effective Telemetry by Bruce Wong @bruce_m_wong
 
@@ -159,6 +164,11 @@
   - enclaves - Intel SHX chips that will encrypt memory at the HW level
     
 ## Beacons
+
+- https://google.github.io/physical-web/
+- https://estimote.com/
+- https://developers.google.com/beacons/
+- Demo'd a beacon advertising a url, that can then be used to control IoT
 
 ## Next.js coding by Guillermo Rauch
 
