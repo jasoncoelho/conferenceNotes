@@ -157,7 +157,7 @@
   - Cloud Storage Interface
   - Cloud Security
   - hyper.sh and hyper-v isolation
-  - Uni-Kernel
+  - Uni-Kernel http://unikernel.org/
   - Container Sprawl
     - How do you handle updating / patching containers en-masse
     - Solomon : Like TCP , Docker is the narrow waist. i.e DockerFile and Docker tar files contain enough information of what it contains and what needs patching
