@@ -97,6 +97,69 @@
 
 # DAY 2
 
+## Cost Effective Telemetry by Bruce Wong @bruce_m_wong
+
+- Experience at Netflix while transitioning from DC to AWS
+  - Roman Riding (riding 2 horses while standing on them)
+  - Strategy - Loosely Coupled but Highly Aligned
+  - Used WireShark
+  - All logs in AWS S3 Buckets
+    - got expensive but worked with Amazon to figure out a way to delete buckets
+  - https://github.com/Netflix/atlas/wiki/Metrics-and-Logging
+    - maximum cardinality on log lines
+- Experience at Twillio
+  - Strategy
+    - Right Tool for the Right Job
+    - Buy SAAS
+      - TCO : Total Cost of Ownership (Build vs Buy)
+      - ROI : Return on Investment ( 10x of employees time )
+      - Tools
+        - https://www.datadoghq.com/
+          - Used for System Metrics
+          - Data available in 15 sec
+          - $ is per host
+        - https://rollbar.com/
+          - Used for unhandled exceptions however is expensive $$$
+        - AWS and Google Cloud 
+          - Store data at Rest
+            - easy to query using onDemand Queries
+        - Slack
+        - PagerDuty
+        - http://lightstep.com/
+          - http://opentracing.io/
+          - This is the new Emerging Trend for Distributed Tracing
+          - Old way of doing this us the use of Correlation Ids
+        - https://www.gremlininc.com/
+          - Chaos engineering
+          - Used to determine if they have enough telemetry and Dashboards
+          - Devs are becoming more proactive rather than Reactive
+        - Uses Chatbots to simpify Incident management
+          - example when something is Alerted, a bot will respond to that alert and compile and post info into Slack
+    - Product Managers ARE ON CALL
+    - Interesting Suggestion - STOP USING REST and instead use RPC
+      - https://twitter.github.io/finagle/
+      - http://www.grpc.io/
+      
+## Container Trends by John Grossman @grossmanster
+
+- THEN __processes__ NOW __VMs and Containers__
+- Disruptors are often mostly guided by what is more Aesthetic
+- Current emergent trends in containers
+  - Networking
+    - CNM
+    - CNI
+  - Cloud Storage Interface
+  - Cloud Security
+  - hyper.sh and hyper-v isolation
+  - Uni-Kernel
+  - Container Sprawl
+    - How do you handle updating / patching containers en-masse
+    - Solomon : Like TCP , Docker is the narrow waist. i.e DockerFile and Docker tar files contain enough information of what it contains and what needs patching
+- Adrian Coyler - writes daily blog posts that summarizes technical papers
+  - enclaves - Intel SHX chips that will encrypt memory at the HW level
+    
+## Beacons
+
 ## Next.js coding by Guillermo Rauch
 
 - https://zeit.co/
@@ -118,9 +181,9 @@
  - pages directory contains the top level pages
  - Checkout React Dev Tools
  
-     <link prefetch>
+  >   <link prefetch>
      
-    
+ - With link, javascript state is maintained 
 
 
 
