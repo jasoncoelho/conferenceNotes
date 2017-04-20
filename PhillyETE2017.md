@@ -162,6 +162,7 @@
     - Solomon : Like TCP , Docker is the narrow waist. i.e DockerFile and Docker tar files contain enough information of what it contains and what needs patching
 - https://blog.acolyer.org/ Adrian Coyler - writes daily blog posts that summarizes technical papers
   - enclaves - Intel SHX chips that will encrypt memory at the H/W level
+  - https://blog.acolyer.org/2017/04/07/sgxio-generic-trusted-io-path-for-intel-sgx/
     
 ## Beacons
 
