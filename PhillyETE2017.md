@@ -113,6 +113,14 @@
  - Can create components that have a unique look
  - Next.js uses convention over configuration
  - Each page only loads the JS it requires instead of loading an entire a big JS
+ - Components are functional in nature 
+   - take arguments and return HTML
+ - pages directory contains the top level pages
+ - Checkout React Dev Tools
+ 
+     <link prefetch>
+     
+    
 
 
 
