@@ -160,8 +160,8 @@
   - Container Sprawl
     - How do you handle updating / patching containers en-masse
     - Solomon : Like TCP , Docker is the narrow waist. i.e DockerFile and Docker tar files contain enough information of what it contains and what needs patching
-- Adrian Coyler - writes daily blog posts that summarizes technical papers
-  - enclaves - Intel SHX chips that will encrypt memory at the HW level
+- https://blog.acolyer.org/ Adrian Coyler - writes daily blog posts that summarizes technical papers
+  - enclaves - Intel SHX chips that will encrypt memory at the H/W level
     
 ## Beacons
 
